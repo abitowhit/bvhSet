@@ -145,7 +145,7 @@ namespace bvhSet
         }
         private string RenameNode(string inFile)
         {
-            string[] invalidFileChars = new string[] { " ", ",", "\t", "\n", "\r", "#", "/", "'", "@", "?", "*", "$", "=", "+", "&", "^", "[", "{", ":", ";", "<", ">" };
+            string[] invalidFileChars = new string[] { " ", ",", "\t", "\n", "\r", "#", "/", "'", "@", "?", "*", "$", "=", "+", "&", "^", "[", "{", ":", ";", "<", ">","\"" };
             bool match = false;
             string retVal = "";
             string[] fsplit = inFile.Split('\\');
